@@ -1,0 +1,90 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(https://i.ibb.co/fp0zgK0/wes-hicks-MEL-j-Jnm7-RQ-unsplash-2.jpg);
+	height: 100vh;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+	position: relative;
+}
+.nav {
+	list-style: none;
+	margin-top: 30px;
+}
+.nav li {
+    float: right;
+	display: block;
+}
+.nav li a {
+	color: #fff;
+	text-decoration: none;
+	padding: 5px 20px;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+.nav li a:hover {
+	background: #fff;
+	color: #333;
+}
+.Front {
+	position: absolute;
+	width: 600px;
+	height: 300px;
+	margin: 20% 30%;
+	text-align: center;
+}
+.Front h1 {
+    border: 1px solid white;
+	text-align: left;
+    margin: 5%;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 60px;
+    display: block;
+}
+.Front h1 span {
+	color: gold;
+}
+.Front a {
+	border: 1px solid #fff;
+	padding: 8px 26px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 14px;
+	margin-right: 5px;
+	display: inline;
+	color: #fff;
+    float: right;
+    background: gray;
+    color: gold;
+}
+.Front a:hover {
+	background: #fff;
+	color: #333;
+}
+/*resposive*/
+
+@media (max-width:600px) {
+	.nav {
+		float: none;
+		margin-top: 0;
+	}
+	.nav li a {
+		padding: 5px;
+		font-size: 11px;
+	}
+	.nav {
+		text-align: center;
+	}
+	.Front {
+		width: 100%;
+		height: auto;
+		margin: 30% 0;
+	}
+	.Front h1 {
+		font-size: 30px;
+	}
+}
